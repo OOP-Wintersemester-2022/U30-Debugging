@@ -1,5 +1,5 @@
 ---
-title: Template
+title: Übungsblatt 11
 author: Zuletzt bearbeitet von Alexander Bazo
 documentclass: scrartcl
 classoption:
@@ -25,10 +25,15 @@ header-includes: |
 # Template für Übungsaufgaben 
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
- - [Link zu wichtiger Ressource](https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/)
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
 
 ## Starterpaket
 
 Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/U00-Template-fuer-Aufgaben/archive/Starterpaket.zip).
 
-## Text
+## Aufgabe
+
+In den letzten Wochen der Übung zu OOP haben Sie klickbare Kreise, Autosimulationen und Bildverarbeitungsalgorithmen programmiert. Im aktuellen Starterpaket finden Sie eine Lösung zu diesen Aufgaben. Es haben sich allerdings in allen dreien Fehler eingeschlichen, die verhindern, dass die Anwendung wie gewünscht funktioniert.
+
+Versuchen Sie die fehlerhaften Stellen im Code zu identifizieren und auszubessern. Gehen Sie dabei systematisch vor und berücksichtigen Sie die Hinweise und Debugging-Strategien aus der aktuellen Vorlesung. Nutzen Sie dazu auch den eingebauten Debugger Ihrer Entwicklungsumgebung, um die Vorgänge im Programm schrittweise nachzuvollziehen. Sie können dazu z.B. die Anwendung über das entsprechende Debugger-Icon starten, Breakpoints setzen und Schritt-für-Schritt durchgehen. Achten Sie genau auf die Reihenfolge der Methodenaufrufe, die logische Anordnung von Kontrollstrukturen und die verwendeten Parameter. Rufen Sie sich im Vorfeld die Anforderungen der Aufgabe in Erinnerung und testen Sie regelmäßig und ausführlich, ob alle Funktionen nutzbar sind.
