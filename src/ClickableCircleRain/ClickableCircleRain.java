@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouseListener {
 
-    /* Private Konstanten */
+    /** private constants **/
     private static final int CANVAS_HEIGHT = 800;
     private static final int CANVAS_WIDTH = 800;
     private static final int FRAME_RATE = 60;
@@ -28,9 +28,8 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     private float[] circleSpeeds;
 
     /**
-     * Die initialize-Methode wird einmalig zum Start des Programms
-     * aufgerufen.
-     */
+     * The initialize-method gets called one time when the program starts.
+     **/
 
     @Override
     public void initialize() {
@@ -39,9 +38,8 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     }
 
     /**
-     * Die draw-Methode wird so lange wiederholt aufgerufen, bis das Programm
-     * beendet wird.
-     */
+     * The draw-method gets repeated called till the program gets terminated.
+     **/
 
     @Override
     public void draw() {
@@ -50,10 +48,9 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     }
 
     /**
-     * Die onMousePressed-Methode wird vom System jedes Mal aufgerufen, wenn
-     * eine Maustaste gedrückt wurde.
+     * MousePressed-method gets called everytime the mouse gets clicked.
      *
-     * @param   mouseEvent   Im mouseEvent sind Zeit, Position und Taste des Drucks gespeichert.
+     * @param   mouseEvent   in mouseEvent contains: time, position and key of the click .
      */
     @Override
     public void onMousePressed(MousePressedEvent mouseEvent) {
@@ -74,8 +71,8 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     }
 
     /**
-     * In dieser Methode wird die Position aller Kreise aktualisiert
-     * und die Kreise werden gezeichnet.
+     * In this method gets the position of every circle updated
+     * and the circles get drawn.
      */
     private void drawCircles() {
         for (int i = 0; i < CIRCLE_COUNT; i++) {
@@ -85,8 +82,8 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     }
 
     /**
-     * Bei der Kreisaktualisierung wird überprüft, ob der Kreis am unteren Rand
-     * anstößt. Wenn dies der Fall ist, wird er wieder auf seine Startposition gesetzt.
+     * With the circle-update it checks if the circle collides with the bottom edge.
+     * If that is the case, the circle is set to the start position.
      */
     private void updateCircle(Circle circle, float speed) {
         circle.move(0, speed);
@@ -96,8 +93,8 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     }
 
     /**
-     * In dieser Methode werden beide Arrays instanziiert und mit Objekten gefüllt.
-     * Die Geschwindigkeit wird zufällig festgelegt.
+     * In this method both arrays get initialized and filled with objects.
+     * The speed is set at random.
      */
     private void setupCirclesAndSpeeds() {
         circleSpeeds = new float[CIRCLE_COUNT];
@@ -110,8 +107,8 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
     }
 
     /**
-     * Die checkCircleColors()-Methode liefert true zurück,
-     * wenn alle Kreise rot eingefärbt wurden. Andernfalls gibt sie false zurück.
+     * The checkCircleColors()-method returns true,
+     * when all circles are painted red. If not it returns false.
      */
     private boolean checkCircleColors() {
         for (int i = 0; i < CIRCLE_COUNT; i++) {

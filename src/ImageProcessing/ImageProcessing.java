@@ -8,7 +8,7 @@ import de.ur.mi.oop.graphics.Image;
 
 public class ImageProcessing extends GraphicsApp {
 
-    /* Private Konstanten */
+    /** private constants **/
     private static final int CANVAS_HEIGHT = 320;
     private static final int CANVAS_WIDTH = 590;
     private static final int FRAME_RATE = 60;
@@ -17,10 +17,9 @@ public class ImageProcessing extends GraphicsApp {
     private Image sourceImage;
     private Image workingCopy;
 
-    /*
-     * Die initialize-Methode wird einmalig zum Start des Programms
-     * aufgerufen.
-     */
+    /**
+     * The initialize-method gets called one time when the program starts.
+     **/
 
     @Override
     public void initialize() {
@@ -28,10 +27,9 @@ public class ImageProcessing extends GraphicsApp {
         setupImages();
     }
 
-    /*
-     * Die draw-Methode wird so lange wiederholt aufgerufen, bis das Programm
-     * beendet wird.
-     */
+    /**
+     * The draw-method gets repeated called till the program gets terminated.
+     **/
 
     @Override
     public void draw() {

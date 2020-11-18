@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Cars extends GraphicsApp {
 
-    /* Private Konstanten */
+    /** private constants **/
     private static final int CANVAS_HEIGHT = 800;
     private static final int CANVAS_WIDTH = 800;
     private static final int FRAME_RATE = 60;
@@ -20,10 +20,9 @@ public class Cars extends GraphicsApp {
 
     private ArrayList<Car> cars;
 
-    /*
-     * Die initialize-Methode wird einmalig zum Start des Programms
-     * aufgerufen.
-     */
+    /**
+     * The initialize-method gets called one time when the program starts.
+     **/
 
     @Override
     public void initialize() {
@@ -31,10 +30,9 @@ public class Cars extends GraphicsApp {
         setupCars();
     }
 
-    /*
-     * Die draw-Methode wird so lange wiederholt aufgerufen, bis das Programm
-     * beendet wird.
-     */
+    /**
+     * The draw-method gets repeated called till the program gets terminated.
+     **/
 
     @Override
     public void draw() {
