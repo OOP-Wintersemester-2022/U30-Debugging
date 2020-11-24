@@ -6,6 +6,7 @@ import de.ur.mi.oop.colors.Colors;
 import de.ur.mi.oop.events.GraphicsAppMouseListener;
 import de.ur.mi.oop.events.MousePressedEvent;
 import de.ur.mi.oop.graphics.Circle;
+import de.ur.mi.oop.launcher.GraphicsAppLauncher;
 
 import java.util.Random;
 
@@ -117,5 +118,9 @@ public class ClickableCircleRain extends GraphicsApp implements GraphicsAppMouse
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        GraphicsAppLauncher.launch();
     }
 }

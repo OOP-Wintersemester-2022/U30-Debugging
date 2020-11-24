@@ -3,6 +3,7 @@ package Cars;
 import de.ur.mi.oop.app.GraphicsApp;
 import de.ur.mi.oop.colors.Color;
 import de.ur.mi.oop.colors.Colors;
+import de.ur.mi.oop.launcher.GraphicsAppLauncher;
 
 import java.util.ArrayList;
 
@@ -58,5 +59,9 @@ public class Cars extends GraphicsApp {
             Car car = new Car(CAR_WIDTH, CAR_HEIGHT, CANVAS_WIDTH, CANVAS_HEIGHT);
             cars.add(car);
         }
+    }
+
+    public static void main(String[] args) {
+        GraphicsAppLauncher.launch();
     }
 }

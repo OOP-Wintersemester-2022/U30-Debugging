@@ -5,6 +5,7 @@ import de.ur.mi.oop.colors.Color;
 import de.ur.mi.oop.colors.Colors;
 import de.ur.mi.oop.events.KeyPressedEvent;
 import de.ur.mi.oop.graphics.Image;
+import de.ur.mi.oop.launcher.GraphicsAppLauncher;
 
 public class ImageProcessing extends GraphicsApp {
 
@@ -147,5 +148,9 @@ public class ImageProcessing extends GraphicsApp {
                 workingCopy.draw();
                 break;
         }
+    }
+
+    public static void main(String[] args) {
+        GraphicsAppLauncher.launch();
     }
 }
