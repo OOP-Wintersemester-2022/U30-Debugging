@@ -1,6 +1,6 @@
 ---
-title: Übungsblatt 11
-author: Zuletzt bearbeitet von Alexander Bazo
+title: Übungsblatt 8
+author: Zuletzt bearbeitet von Jürgen Hahn
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -12,12 +12,12 @@ header-includes: |
     \pagestyle{fancy}
     \fancyhf{}
     \rhead{OOP WS 2020/21}
-    \lhead{U00 | Template}
+    \lhead{U08 | Übungsblatt 8}
     \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
     \fancypagestyle{plain}{
       \fancyhf{}
       \rhead{OOP WS 2020/21}
-      \lhead{U00 | Template}
+      \lhead{U08 | Übungsblatt 8}
       \cfoot[C]{\includegraphics[height=2cm]{docs/footer.png}}}
 ---
 
@@ -25,12 +25,13 @@ header-includes: |
 # Template für Übungsaufgaben 
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
- - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
- - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
-
+  - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675)
+  - [Informationen zum Im- und Export von Projekten](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675&chapterid=51551)
+  - [GraphicsApp](https://elearning.uni-regensburg.de/mod/url/view.php?id=1482162)
+  
 ## Starterpaket
 
-Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/U11-GraphicsApp/archive/Starterpaket.zip).
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/U08-GraphicsApp/archive/Starterpaket.zip).
 
 ## Aufgabe
 
