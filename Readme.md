@@ -1,4 +1,4 @@
-# U20 | Car-Simulator
+# U30 | Debugging
 
 In den letzten Wochen der Übung zu OOP haben Sie klickbare Kreise, Autosimulationen und Bildverarbeitungsalgorithmen programmiert. Im aktuellen Starterpaket finden Sie eine Lösung zu diesen Aufgaben. Es haben sich allerdings in allen dreien Fehler eingeschlichen, die verhindern, dass die Anwendung wie gewünscht funktioniert.
 
