@@ -1,12 +1,12 @@
 {
-  "title": "U22 | Debugging",
+  "title": "U30 | Debugging",
   "abstract": "Fehlerhafte Programme zum Übung von Debugging.",
   "hasStarterCode": true,
-  "hasSolutionCode": true,
+  "hasSolutionCode": false,
   "solutionComment": "Lösungsvorschlag zur Aufgabenstellung",
   "simpleSolutionComment": "",
   "advancedSolutionComment": "",
   "hasSimpleSolutionCode": false,
   "hasAdvancedSolutionCode": false,
-  "solutionAvailableOn": "2021-12-14"
+  "solutionAvailableOn": "2021-01-24"
 }
